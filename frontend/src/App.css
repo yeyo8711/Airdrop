@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+}
+
+body {
+  background: url("./assets/bg2.jpg");
+  color: #f9f9f9;
+  background-size: auto;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.topbar_main {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-height: fit-content;
+  justify-content: space-between;
+  padding: 50px;
+}
+.topbar_container {
+  background-color: #3500d3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100px;
+  min-width: 200px;
+  border-radius: 10px;
+  border: 3px solid #282828;
+  padding: 10px;
+  box-shadow: rgba(218, 215, 215, 0.35) 0px 5px 15px;
+}
+.topbar_values {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main_main {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 50px;
+  max-height: fit-content;
+}
+
+.main_airdrop {
+  max-height: 250px;
+}
+.main_token {
+  max-height: 200px;
+}
+.deposit_withdraw {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.deposit_withdraw input {
+  width: 100px;
+}
+
+.main_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px;
+  border: 3px solid #282828;
+  border-radius: 10px;
+  margin: 5px;
+  min-height: 100px;
+  background-color: #3500d3;
+  box-shadow: rgba(161, 160, 160, 0.35) 0px 5px 15px;
+}
+button {
+  border-radius: 10px;
+  padding: 2px;
+  margin: 3px;
+  background: #f9f9f9;
+  color: black;
+  box-shadow: rgba(160, 158, 158, 0.35) 0px 5px 15px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #282828;
+  color: #f9f9f9;
+}
+
+.testTokens {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+  justify-content: space-around;
+}
+.testTokens button {
+  margin: 15px;
+}
